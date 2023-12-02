@@ -5,7 +5,7 @@
 This repository contains a simple ATM (Automated Teller Machine) program written in C. The program allows users to perform basic banking operations such as checking balance, withdrawing money, depositing money, and changing their PIN.
 
 File Structure
-- **ATM.c**: This file contains the main source code for the ATM program.
+- **B23CS1040_B23EE1074_B23CH1006_B23CI1006.c**: This file contains the main source code for the ATM program.
 - **HelloAnuj**: This file serves as the data storage for account information, including account numbers, PINs, and balances.
 
 # How to Use
