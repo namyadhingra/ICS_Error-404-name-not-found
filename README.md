@@ -9,7 +9,7 @@ File Structure
 - **HelloAnuj**: This file serves as the data storage for account information, including account numbers, PINs, and balances.
 
 # How to Use
-1. **Compilation**: Compile the `ATM.c` file using a C compiler.
+1. **Compilation**: Compile the `B23CS1040_B23EE1074_B23CH1006_B23CI1006.c` file using a C compiler.
   
 2. **Run the Program**: Execute the compiled program.
    
