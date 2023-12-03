@@ -46,5 +46,5 @@ Welcome to the ATM Management System! This project is a simple command-line appl
 ## File Structure
 
 - `main.c`: Contains the main source code for the ATM Management System.
-- `HelloAnuj`: Data file storing account information.
+- `data`: Data file storing account information.
 
