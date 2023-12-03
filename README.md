@@ -33,7 +33,7 @@ Welcome to the ATM Management System! This project is a simple command-line appl
 1. **Compilation:**
    - Compile the source code using a C compiler. For example:
      ```bash
-     gcc main.c -o atm
+     gcc B23CS1040_B23EE1074_B23CH1006_B23CI1006.c -o atm
      ```
 
 2. **Run the Program:**
