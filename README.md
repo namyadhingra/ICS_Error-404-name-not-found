@@ -13,7 +13,6 @@ Welcome to the ATM Management System! This project is a simple command-line appl
 - [Features](#features)
 - [How to Use](#how-to-use)
 - [File Structure](#file-structure)
-- [Contributing](#contributing)
 
 ## Features
 
