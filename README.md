@@ -14,7 +14,6 @@ Welcome to the ATM Management System! This project is a simple command-line appl
 - [How to Use](#how-to-use)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -50,14 +49,3 @@ Welcome to the ATM Management System! This project is a simple command-line appl
 - `main.c`: Contains the main source code for the ATM Management System.
 - `HelloAnuj`: Data file storing account information.
 
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this template according to your project's specific details. Add more sections if needed, such as acknowledgments, known issues, or future enhancements.
