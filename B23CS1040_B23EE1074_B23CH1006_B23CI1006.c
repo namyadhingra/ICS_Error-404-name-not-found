@@ -14,7 +14,7 @@ int pin_cha(){
     int re_new_pin;
     int arr[line_count];
 
-    fptr = fopen("HelloAnuj", "r");
+    fptr = fopen("data", "r");
 
     for(int i=0;i<line_count;i++)
     {
@@ -42,7 +42,7 @@ int pin_cha(){
         pin_cha();
     }
     FILE *fptr2;
-    fptr2 = fopen("HelloAnuj", "w");
+    fptr2 = fopen("data", "w");
     for(int i=0;i<line_count;i++){
         fprintf(fptr2, "%d", arr[i]);
         fprintf(fptr2, "\n");
@@ -57,7 +57,7 @@ int check_balance(){
     
     int arr[line_count];
 
-    fptr = fopen("HelloAnuj", "r");
+    fptr = fopen("data", "r");
 
     for(int i=0;i<line_count;i++)
     {
@@ -110,7 +110,7 @@ int check_lines()
     char ch;
 
     // Open the file in read mode
-    fptr = fopen("HelloAnuj", "r");
+    fptr = fopen("data", "r");
 
     // Check if the file is opened successfully
     if (fptr == NULL)
@@ -136,7 +136,7 @@ int check_lines()
 }
 int with_mon(){
     FILE *fptr;
-    fptr = fopen("HelloAnuj", "r");
+    fptr = fopen("data", "r");
     int arr[line_count];
     int amt_with;
     printf("Enter the amount you want to withdraw: \n");
@@ -149,7 +149,7 @@ int with_mon(){
         arr[index +2] -= amt_with;
         fclose(fptr);
         FILE *fptr2;
-        fptr2 = fopen("HelloAnuj", "w");
+        fptr2 = fopen("data", "w");
         for(int i=0;i<line_count;i++){
             fprintf(fptr2, "%d", arr[i]);
             fprintf(fptr2, "\n");
@@ -168,7 +168,7 @@ int with_mon(){
 }
 int depo_mon(){
     FILE *fptr;
-    fptr = fopen("HelloAnuj", "r");
+    fptr = fopen("data", "r");
     int arr[line_count];
     int amt_depo;
     printf("Enter the amount you want to deposit: ");
@@ -181,7 +181,7 @@ int depo_mon(){
     arr[index +2] += amt_depo;
     fclose(fptr);
     FILE *fptr2;
-    fptr2 = fopen("HelloAnuj", "w");
+    fptr2 = fopen("data", "w");
     for(int i=0;i<line_count;i++){
         fprintf(fptr2, "%d", arr[i]);
         fprintf(fptr2, "\n");
@@ -198,7 +198,7 @@ int register_acc()
     int acc_no;
     int pin;
     int balance;
-    fptr = fopen("HelloAnuj", "r");
+    fptr = fopen("data", "r");
     printf("Enter your account number : ");
     scanf("%d", &acc_no); 
     for(int i=0;i<line_count;i++)
@@ -224,7 +224,7 @@ int register_acc()
     printf("Your account balance is %d\n", balance);
     line_count+= 3;
 
-    fptr = fopen("HelloAnuj", "a");
+    fptr = fopen("data", "a");
     fprintf(fptr, "\n%d", acc_no );
     fprintf(fptr, "\n%d", pin );
     fprintf(fptr, "\n%d", balance);
@@ -248,7 +248,7 @@ int sign_in()
         printf("Enter your pin: ");
         scanf("%d", &pin);
 
-        fptr = fopen("HelloAnuj", "r");
+        fptr = fopen("data", "r");
         
 
         for (int i = 0; i < (line_count); i++)
