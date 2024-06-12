@@ -1,7 +1,3 @@
-Certainly! Below is a basic template for a README file for your GitHub project. It provides an overview of your project, its functionality, and instructions for users.
-
----
-
 # ATM Management System
 
 ## Overview
